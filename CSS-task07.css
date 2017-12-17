@@ -1,0 +1,547 @@
+body {
+	background-color: RGB(240,240,240);
+}
+
+.headercss-01 {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(41,189,224);
+}
+
+.headericon-01 {
+	width: 34px;
+	height: 27px;
+	margin-left: 0.5rem;
+	background: url(./images/css_sprites.png) -10px -305px;
+	transform: scale(0.5);
+}
+
+.topdiv-01 {
+	position: relative;
+	top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+    border: 1px solid RGB(208,208,208);
+	background-color: white;
+}
+
+.topblank-01 {
+	width: 24px;
+	height: 40px;
+	transform: scale(0.5);
+}
+
+.topgame-01 {
+	font-size: 1.7rem;
+	color: RGB(154,154,154);
+}
+
+.toparr-01 {
+	width: 24px;
+	height: 40px;
+	background: url(./images/css_sprites.png) -379px -85px;
+	transform: scale(0.5);
+}
+
+.maindiv-01 {
+	position: relative;
+	top: 6.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 0;
+	padding-left: 0;
+	border: 1px solid RGB(208,208,208);
+	background-color: white;
+
+}
+
+.maingame-01 {
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	font-size: 1.7rem;
+	color: RGB(251,180,53);
+	border-bottom: 1px solid RGB(251,180,53);
+}
+
+.mainedition-01 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-top: 1rem;
+}
+
+.mainedi-01 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+}
+
+.btncss-01 {
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 1.6rem;
+	color: white;
+	background-color: RGB(105,209,233);
+	border: 0;
+	border-radius: 0;
+}
+
+.pcss-01 {
+	width: 100%;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: RGB(154,154,154);
+}
+
+
+.mainblank-01 {
+	width: 28px;
+	height: 55px;
+	transform: scale(0.5);
+}
+
+.maintri-01 {
+	position: relative;
+	bottom: 1.8rem;
+	width: 28px;
+	height: 55px;
+	background: url(./images/css_sprites.png) -379px -10px;
+    transform: scale(0.5);
+}
+
+.circle-01 {
+	display: flex;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.btncircle-01 {
+	padding: 0.35rem;
+	margin-right: 0.35rem;
+	margin-left: 0.35rem;
+	background-color: RGB(180,180,180);
+	border: 0;
+	border-radius: 50%;
+}
+
+.btncircol-01 {
+	background-color: RGB(105,209,233);
+}
+
+.bgcolor-02 {
+	background-color: RGB(41,189,224);
+}
+
+.headercss-02 {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(41,189,224);
+}
+
+.headerleft-02 {
+	width: 39px;
+	height: 40px;
+	margin-left: 0.5rem;
+	background: url(./images/css_sprites.png) -213px -233px;
+	transform: scale(0.5);
+}
+
+.headerp-02 {
+	margin-bottom: 0;
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+.headerright-02 {
+	width: 36px;
+	height: 36px;
+	margin-right: 0.5rem;
+	background: url(./images/css_sprites.png) -272px -233px;
+	transform: scale(0.5);
+}
+
+.topdiv-02 {
+	position: relative;
+	top: 3.4rem;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(185,233,245);
+}
+
+.topp-02 {
+	padding-left: 1.5rem;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.topplay-02 {
+	width: 52px;
+	height: 52px;
+	background: url(./images/css_sprites.png) -10px -233px;
+	transform: scale(0.5);
+}
+
+.toptri-02 {
+	position: relative;
+    top: 3.4rem;
+    left: 2.5rem;
+	width: 0;
+	height: 0;
+	border-width: 0.5rem 0.5rem 0;
+    border-style: solid;
+    border-color: RGB(185,233,245) transparent transparent;   
+}
+
+.toppbo-02 {
+	position: relative;
+	top: 4.5rem;
+	padding-left: 2.5rem;
+	padding-bottom: 2rem;
+	color: white;
+}
+
+.mainvote-02 {
+	position: relative;
+	top: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.voterow-02 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.voteinfo-02 {
+	width: 25vw;
+	height: 25vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	background-color: RGB(245,201,123);
+	border: 0.5vw solid white;
+}
+
+.votename-02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75%;
+	font-size: 3.5vw;
+}
+
+.votenum-02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25%;
+	background-color: RGB(131,176,154);
+	font-size: 3vw;
+	color: white;
+}
+
+.voteicon-02 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 25vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	opacity: 0;
+	transition: .5s;  
+    -webkit-transition: .5s;  
+    -moz-transition: .5s;
+}
+
+.iconcss-02 {
+	width: 5vw;
+	height: 5vw;
+	margin: 2vw 0.6vw;
+	background: url(./images/css_icons.png);
+	background-size: 400% auto;
+    background-repeat: no-repeat;
+}
+
+.icon01-02 {
+    background-position: 0 0;
+}
+
+.icon02-02 {
+    background-position: 34% 0;
+}
+
+.icon03-02 {
+    background-position: 67% 0;
+}
+
+.icon04-02 {
+    background-position: 100% 0;
+}
+
+.mainblank-02 {
+	position: relative;
+	width: 100%;
+	height: 6.5rem;
+}
+
+.footercss-02 {
+	z-index: 10;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height: 6rem;
+	background-color: RGB(41,189,224);
+}
+
+.footerbor-02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 82vw;
+	height: 6rem;
+	border-top: 0.1rem solid white;
+}
+
+.btnvote-02 {
+	width: 82vw;
+	height: 4rem;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	background-color: RGB(251,180,53);
+	border: 0;
+}
+
+.bgcolor-03 {
+	background-color: white;
+}
+
+.headercss-03 {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(41,189,224);
+	border-bottom: thin solid white;
+}
+
+.headerleft-03 {
+	width: 51px;
+	height: 42px;
+	background: url(./images/css_sprites.png) -82px -233px;
+	transform: scale(0.5);
+}
+
+.headerp-03 {
+	margin-bottom: 0;
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+.headerright-03 {
+	width: 40px;
+	height: 40px;
+	margin-right: 0.5rem;
+	background: url(./images/css_sprites.png) -153px -233px;
+	transform: scale(0.5);
+}
+
+.topdiv-03 {
+	position: relative;
+	top: 3.4rem;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: RGB(41,189,224);
+}
+
+.topicon-03 {
+	width: 60%;
+	height: 35vw;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background: url(./images/03-winner.png) 0 0;
+	background-size: 100% auto;
+	background-repeat: no-repeat;;
+}
+
+.topwin-03 {
+	width: 80%;
+	margin-bottom: 1.8rem;
+	font-size: 1.8rem;
+	color: RGB(255,200,101);
+}
+
+.topp-03 {
+	width: 80%;
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.toppnum-03 {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pflex-03 {
+	flex: 0 0 30%;
+	white-space: pre;
+}
+
+.maindiv-03 {
+	position: relative;
+    top: 3.4rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mainday-03 {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+	margin-top: 0.5rem;
+	border-bottom: thin solid grey;
+}
+
+.daynum-03 {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.dayleft-03 {
+	font-size: 1.7rem;
+}
+
+.dayright-03 {
+	font-size: 1rem;
+	color: grey;
+}
+
+.dayevt-03 {
+	width: 80%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	color: grey;
+}
+
+.mainblank-03 {
+	position: relative;
+	top: 3.4rem;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+}
+
+.footeropa-03 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: RGB(41,189,224);
+	opacity: 0.5;
+}
+
+.footercss-03 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 5rem;
+}
+
+.btncss-03 {
+	width: 40%;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	font-size: 1.7rem;
+	color: white;
+	text-align: center;
+}
+
+.btnbgcl-03 {
+	background-color: RGB(246,111,111);
+}
+
+.btnbgcr-03 {
+	background-color: RGB(251,180,53);
+}
+
+.votediv-02:hover .voteicon-02 {  
+	opacity: 1; 
+}
+
+.topplay-02:hover {
+	cursor: pointer;
+}
+
+.prenew {
+	margin-bottom: 0;
+}
+
+button.btnoutline:focus {
+	color: black;
+	outline: none;
+}

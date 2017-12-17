@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<title>投票页</title>
+	<link rel="stylesheet" type="text/css" href="CSS-task07.css">
+</head>
+
+<body class="bgcolor-02">
+    <header>
+	    <div class="headercss-02">
+		    <div class="headerleft-02"></div>
+		    <p class="headerp-02 prenew">投票</p>
+		    <div class="headerright-02"></div>
+		</div>
+	</header>		
+		
+	<main>
+		<div>
+	 	<div class="topdiv-02">
+	 	 	<p class="topp-02 prenew">发言讨论结束，大家请投票</p>
+	 	 	<div class="topplay-02" onclick="playaudio();"><audio src="财富自由.mp3" controls="controls" preload id="musicmp3" hidden></audio></div>
+	 	</div>
+	 	<div class="toptri-02"></div>
+	 	<p class="toppbo-02 prenew">点击得票数最多人的头像</p>
+	 	<div class="mainvote-02">
+	 	 	<div class="voterow-02">
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">水民</div>
+	 	 	 	        <div class="votenum-02">1号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">水民</div>
+	 	 	 	        <div class="votenum-02">2号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">警察</div>
+	 	 	 	        <div class="votenum-02">3号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+	 	 	</div>
+
+	 	 	<div class="voterow-02">
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">法官</div>
+	 	 	 	        <div class="votenum-02">4号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">狙击手</div>
+	 	 	 	        <div class="votenum-02">5号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">医生</div>
+	 	 	 	        <div class="votenum-02">6号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+	 	 	</div>
+
+	 	 	<div class="voterow-02">
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">杀手</div>
+	 	 	 	        <div class="votenum-02">7号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">水民</div>
+	 	 	 	        <div class="votenum-02">8号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">水民</div>
+	 	 	 	        <div class="votenum-02">9号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+	 	 	</div>
+
+	 	 	<div class="voterow-02">
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">医生</div>
+	 	 	 	        <div class="votenum-02">10号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">狙击手</div>
+	 	 	 	        <div class="votenum-02">11号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+
+	 	 		<div class="votediv-02">	 	 	    	
+	 	 	        <div class="voteinfo-02">
+	 	 	 	        <div class="votename-02">水民</div>
+	 	 	 	        <div class="votenum-02">12号</div>
+	 	 	        </div>	 	 	     	
+	 	 	     	<div class="voteicon-02">
+	 	 	     	 	<div class="iconcss-02 icon01-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon02-02"></div>
+	 	 	     	 	<div class="iconcss-02 icon03-02"></div>
+                     	<div class="iconcss-02 icon04-02"></div>
+	 	 	     	</div>
+	 	 		</div>
+	 	 	</div>
+	 	 	<div class="mainblank-02"></div>
+	 	</div>
+	 </div>
+	</main>
+
+	<footer>
+		<div class="footercss-02">
+			<div class="footerbor-02">
+			<a href="https://lysitios.github.io/CSS-task07/CSS-task07-03.html"><button class="btnvote-02 btnoutline">投死</button></a>
+		    </div>
+		</div>
+	</footer>
+		
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+function playaudio(){
+	var audio = document.getElementById('musicmp3'); 
+ 		if(audio!==null) {             
+  			if(audio.paused) {                 
+      			audio.play();  
+  			}
+  			else {
+   				audio.pause();
+  			}
+ 		} 
+	}
+</script>
+
+</body>
+</html>
